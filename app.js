@@ -9,7 +9,7 @@ function addFood(event) {
 
   const food = {
     name: foodNameInput.value,
-    calories: parseInt(caloriesInput.value)
+    calories: parseInt(caloriesInput.value),
   };
 
   foodList.push(food);
